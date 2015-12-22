@@ -2,13 +2,13 @@ from distutils.core import setup
 setup(
   name = 'wfpdf',
   py_modules = ['wfpdf'],
-  version = '0.9.0',
+  version = '0.9.1',
   description = 'convenience wrapper for fpdf with unicode support',
   install_requires = ['fpdf'],
   author = 'Mirek Zvolsky',
   author_email = 'zvolsky@seznam.cz',
   url = 'https://github.com/zvolsky/wfpdf',
-  download_url = 'https://github.com/zvolsky/wfpdf/tarball/0.9.0',
+  download_url = 'https://github.com/zvolsky/wfpdf/tarball/0.9.1',
   keywords = ['fpdf', 'pyfpdf', 'pdf'],
   classifiers=[
       'Development Status :: 4 - Beta',
